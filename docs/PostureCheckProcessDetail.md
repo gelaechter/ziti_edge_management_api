@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **created_at** | **String** |  | 
 **id** | **String** |  | 
 **name** | **String** |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | 
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | 
 **tags** | [**models::Tags**](tags.md) |  | 
 **type_id** | **String** |  | 
 **updated_at** | **String** |  | 

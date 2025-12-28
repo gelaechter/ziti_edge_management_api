@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **name** | **String** |  | 
 **permissions** | [**Vec<models::DialBind>**](dialBind.md) |  | 
 **posture_queries** | [**Vec<models::PostureQueries>**](postureQueries.md) |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | 
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | 
 **terminator_strategy** | **String** |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

@@ -1,6 +1,6 @@
 [package]
 name = "ziti_edge_management_api"
-version = "0.26.51"
+version = "0.26.52"
 authors = ["help@openziti.org"]
 description = "OpenZiti Edge Management API"
 license = "Apache 2.0"

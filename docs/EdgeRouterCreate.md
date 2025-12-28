@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **is_tunneler_enabled** | Option<**bool**> |  | [optional]
 **name** | **String** |  | 
 **no_traversal** | Option<**bool**> |  | [optional]
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | [optional]
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | [optional]
 **tags** | Option<[**models::Tags**](tags.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

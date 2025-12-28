@@ -27,7 +27,7 @@ Name | Type | Description | Notes
 **interfaces** | Option<[**Vec<models::Interface>**](interface.md)> |  | [optional]
 **is_tunneler_enabled** | **bool** |  | 
 **is_verified** | **bool** |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | 
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | 
 **unverified_cert_pem** | Option<**String**> |  | [optional]
 **unverified_fingerprint** | Option<**String**> |  | [optional]
 **version_info** | Option<[**models::VersionInfo**](versionInfo.md)> |  | [optional]

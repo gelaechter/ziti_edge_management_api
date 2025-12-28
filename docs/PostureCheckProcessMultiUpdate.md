@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | **String** |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | [optional]
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | [optional]
 **tags** | Option<[**models::Tags**](tags.md)> |  | [optional]
 **type_id** | Option<[**models::PostureCheckType**](postureCheckType.md)> |  | [optional]
 **processes** | [**Vec<models::ProcessMulti>**](processMulti.md) |  | 

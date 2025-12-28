@@ -12,7 +12,8 @@ Name | Type | Description | Notes
 **external_id** | Option<**String**> |  | [optional]
 **is_admin** | **bool** |  | 
 **name** | **String** |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | [optional]
+**permissions** | Option<**Vec<String>**> | A set of strings used to define which types of resources this resource can acccess | [optional]
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | [optional]
 **service_hosting_costs** | Option<**std::collections::HashMap<String, i32>**> |  | [optional]
 **service_hosting_precedences** | Option<[**std::collections::HashMap<String, models::TerminatorPrecedence>**](terminatorPrecedence.md)> |  | [optional]
 **tags** | Option<[**models::Tags**](tags.md)> |  | [optional]

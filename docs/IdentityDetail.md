@@ -29,7 +29,8 @@ Name | Type | Description | Notes
 **is_default_admin** | **bool** |  | 
 **is_mfa_enabled** | **bool** |  | 
 **name** | **String** |  | 
-**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosly couple this resource to policies | 
+**permissions** | Option<**Vec<String>**> | A set of strings used to define which types of resources this resource can acccess | 
+**role_attributes** | Option<**Vec<String>**> | A set of strings used to loosely couple this resource to policies | 
 **sdk_info** | [**models::SdkInfo**](sdkInfo.md) |  | 
 **service_hosting_costs** | **std::collections::HashMap<String, i32>** |  | 
 **service_hosting_precedences** | [**std::collections::HashMap<String, models::TerminatorPrecedence>**](terminatorPrecedence.md) |  | 
